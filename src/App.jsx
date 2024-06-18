@@ -1,4 +1,3 @@
-import './App.css'
 import Notifications from './components/Notifications'
 
 function App() {
