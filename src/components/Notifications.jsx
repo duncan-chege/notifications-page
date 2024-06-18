@@ -11,7 +11,7 @@ export default function Notifications(){
     }
 
     return (
-    <main role="main">
+    <div class="main" role="main">
         <div className='top-section'>
             <h2>Notifications <span>{num}</span></h2>
             <button onClick={markRead}>Mark all as read</button>
@@ -81,6 +81,6 @@ export default function Notifications(){
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
             Coded by <a href="https://github.com/duncan-chege">Duncan Chege</a>
         </div>
-    </main>
+    </div>
     )
 }
