@@ -102,7 +102,7 @@ span.unread-dot {
 }
 
 .notification>div {
-    text-align: start;
+    flex-grow: 1;
     margin-left: 1em;
 }
 
@@ -110,6 +110,16 @@ span.unread-dot {
     font-size: 12px;
     margin-top: 5px;
     color: var(--dark-grayish-blue);
+}
+
+.notification>div:last-child img {
+    float: right;
+}
+
+.notification>div:last-child img:hover {
+    border: 2.5px solid var(--light-grayish-blue-1);
+    border-radius: 7px;
+    cursor: pointer;
 }
 
 .name-title {

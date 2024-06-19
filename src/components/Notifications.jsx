@@ -59,6 +59,9 @@ export default function Notifications(){
                 <p><span className='name-title'>Kimberly Smith</span> commented on your picture</p>
                 <p>1 week ago</p>
             </div>
+            <div>
+            <img src="src/assets/images/image-chess.webp" alt="" />
+            </div>
         </div>
         <div className="notification">
             <img src="src/assets/images/avatar-nathan-peterson.webp" alt="" />
