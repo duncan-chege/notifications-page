@@ -17,7 +17,7 @@ export default function Notifications(){
             <button onClick={markRead}>Mark all as read</button>
         </div>
         <div className={unread ? "notification unread": "notification"}>
-            <img src="src/assets/images/avatar-mark-webber.webp" alt="" />
+            <img src="./assets/images/avatar-mark-webber.webp" alt="" />
             <div>
                 <p><span className='name-title'>Mark Webber</span> reacted to your recent post <span
                         className='name-title'>My first tournament today!</span> {unread && <span className='unread-dot'></span>}
@@ -26,7 +26,7 @@ export default function Notifications(){
             </div>
         </div>
         <div className={unread ? "notification unread": "notification"}>
-            <img src="src/assets/images/avatar-angela-gray.webp" alt="" />
+            <img src="./assets/images/avatar-angela-gray.webp" alt="" />
             <div>
                 <p><span className='name-title'>Angela Gray</span> followed you {unread && <span className='unread-dot'></span>}
                 </p>
@@ -34,7 +34,7 @@ export default function Notifications(){
             </div>
         </div>
         <div className={unread ? "notification unread": "notification"}>
-            <img src="src/assets/images/avatar-jacob-thompson.webp" alt="" />
+            <img src="./assets/images/avatar-jacob-thompson.webp" alt="" />
             <div>
                 <p><span className='name-title'>Jacob Thompson</span> has joined your group <span
                         className='name-title'>Chess Club</span> {unread && <span className='unread-dot'></span>}
@@ -43,7 +43,7 @@ export default function Notifications(){
             </div>
         </div>
         <div className="notification">
-            <img src="src/assets/images/avatar-rizky-hasanuddin.webp" alt="" />
+            <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="" />
             <div>
                 <p><span className='name-title'>Rizky Hasanuddin</span> sent you a private message</p>
                 <p>5 days ago</p>
@@ -54,17 +54,17 @@ export default function Notifications(){
             </div>
         </div>
         <div className="notification">
-            <img src="src/assets/images/avatar-kimberly-smith.webp" alt="" />
+            <img src="./assets/images/avatar-kimberly-smith.webp" alt="" />
             <div>
                 <p><span className='name-title'>Kimberly Smith</span> commented on your picture</p>
                 <p>1 week ago</p>
             </div>
             <div>
-            <img src="src/assets/images/image-chess.webp" alt="" />
+            <img src="./assets/images/image-chess.webp" alt="" />
             </div>
         </div>
         <div className="notification">
-            <img src="src/assets/images/avatar-nathan-peterson.webp" alt="" />
+            <img src="./assets/images/avatar-nathan-peterson.webp" alt="" />
             <div>
                 <p><span className='name-title'>Nathan Peterson</span> reacted to your recent post <span
                         className='name-title'>5 end-game strategies to increase your win rate</span>
@@ -73,7 +73,7 @@ export default function Notifications(){
             </div>
         </div>
         <div className="notification">
-            <img src="src/assets/images/avatar-kimberly-smith.webp" alt="" />
+            <img src="./assets/images/avatar-kimberly-smith.webp" alt="" />
             <div>
                 <p><span className='name-title'>Anna Kim</span> left the group <span className='name-title'>Chess
                         Club</span></p>
