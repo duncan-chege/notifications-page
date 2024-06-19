@@ -42,7 +42,7 @@ a {
     padding: 1em;
     background-color: #fff;
     border-radius: 10px;
-    width: clamp(150px, 95%, 600px);
+    width: min(600px, 95%);
     margin: 0 auto;
 }
 
